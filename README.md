@@ -24,6 +24,12 @@ Burada resimlerdeki ayarlamalar yapıldıktan sonra table_name kısmına potgred
 <img src="https://github.com/farabiatak/swordsec_tail_nifi/blob/main/nifi-ayarlar-1/Screenshot%20(218).png" width="auto">
 <img src="https://github.com/farabiatak/swordsec_tail_nifi/blob/main/nifi-ayarlar-1/Screenshot%20(219).png" width="auto">
 
+##POSTGRESQL
+>verileri null değer olmadan aktardık.
+>
+<img src="https://github.com/farabiatak/swordsec_tail_nifi/blob/main/nifi-ayarlar-1/Screenshot%20(225).png" width="auto">
+
+
 
 
 
