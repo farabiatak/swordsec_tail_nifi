@@ -1,1 +1,3 @@
-# swordsec_tail_nifi
+#Kuyruklama Projesi -- ApacheNifi & PostgreSQL
+
+##Projenin Amacı 
