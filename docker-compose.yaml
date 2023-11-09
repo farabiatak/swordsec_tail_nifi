@@ -1,0 +1,27 @@
+version: '3'
+services:
+  nifi:
+    image: apache/nifi:1.13.1
+    container_name: nifi
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./nifi-data:/opt/nifi/nifi-current/var/lib/data
+    networks:
+      - nifi-network
+
+  postgre:
+    image: postgres:13
+    container_name: postgre
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    networks:
+      - nifi-network
+
+networks:
+  nifi-network:
+    driver: bridge
